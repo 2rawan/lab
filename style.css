@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1c1c2b;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #1c1c2b;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.hero {
+  padding: 80px 50px;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero span {
+  color: #fff;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff5e63;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.skills {
+  padding: 50px;
+}
+
+.skills h2 {
+  color: #ff5e63;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #2a2a3b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  background: #2a2a3b;
+  border: none;
+  color: #fff;
+}
+
+.contact button {
+  background: #ff5e63;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
